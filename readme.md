@@ -28,8 +28,47 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`llabtools csv2md`](#llabtools-csv2md)
+* [`llabtools fetchcsv`](#llabtools-fetchcsv)
 * [`llabtools hello`](#llabtools-hello)
 * [`llabtools help [COMMAND]`](#llabtools-help-command)
+* [`llabtools mergeaudio`](#llabtools-mergeaudio)
+
+## `llabtools csv2md`
+
+Describe the command here
+
+```
+USAGE
+  $ llabtools csv2md
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/csv2md.js](https://github.com/chadananda/llabtools/blob/v0.0.1/src/commands/csv2md.js)_
+
+## `llabtools fetchcsv`
+
+Describe the command here
+
+```
+USAGE
+  $ llabtools fetchcsv
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/fetchcsv.js](https://github.com/chadananda/llabtools/blob/v0.0.1/src/commands/fetchcsv.js)_
 
 ## `llabtools hello`
 
@@ -65,4 +104,22 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
+
+## `llabtools mergeaudio`
+
+Describe the command here
+
+```
+USAGE
+  $ llabtools mergeaudio
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/mergeaudio.js](https://github.com/chadananda/llabtools/blob/v0.0.1/src/commands/mergeaudio.js)_
 <!-- commandsstop -->
