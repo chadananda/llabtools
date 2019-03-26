@@ -1,15 +1,48 @@
 {
   "name": "llabtools",
-  "version": "1.0.0",
-  "description": "Language Lab Manipulation tools with both require and CLI interface",
-  "author": "Chad Jones <chadananda@gmail.com> (http://notepad.com)",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": ""
+  "description": "CLI tools for building LLAB files",
+  "version": "0.0.1",
+  "author": "Chad @chadananda",
+  "bin": {
+    "llabtools": "./bin/run"
   },
+  "bugs": "https://github.com/chadananda/llabtools/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.12",
+    "@oclif/config": "^1.12.11",
+    "@oclif/plugin-help": "^2.1.6"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.21.3",
+    "globby": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/chadananda/llabtools",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "llabtools",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "chadananda/llabtools",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "ISC"
+    "postpack": "rm -f oclif.manifest.json",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
 }
