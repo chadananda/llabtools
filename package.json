@@ -1,7 +1,7 @@
 {
   "name": "llabtools",
   "description": "CLI tools for building LLAB files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Chad @chadananda",
   "bin": {
     "llabtools": "./bin/run"
@@ -10,7 +10,17 @@
   "dependencies": {
     "@oclif/command": "^1.5.12",
     "@oclif/config": "^1.12.11",
-    "@oclif/plugin-help": "^2.1.6"
+    "@oclif/plugin-help": "^2.1.6",
+    "backblaze-b2": "^1.3.1",
+    "base62": "^2.0.1",
+    "cli-ux": "^5.2.1",
+    "csv-parse": "^4.3.4",
+    "dotenv": "^7.0.0",
+    "easy-backblaze": "^2.0.1",
+    "fs-sync": "^1.0.6",
+    "ocnparse": "^1.1.4",
+    "prompts": "^2.0.4",
+    "trim-character": "^2.0.1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.21.3",
